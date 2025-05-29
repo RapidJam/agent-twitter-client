@@ -133,7 +133,7 @@ export async function grokChat(
   };
 
   const res = await requestApi<{ text: string }>(
-    'https://api.x.com/2/grok/add_response.json',
+    'https://grok.x.com/2/grok/add_response.json',
     auth,
     'POST',
     undefined,
